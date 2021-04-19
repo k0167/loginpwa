@@ -1,0 +1,14 @@
+.form-signin{
+	width: 100%;
+	height: 100vh;
+	max-width: 330px;
+	padding: 15px;
+	margin: auto;
+	font-family: 'Courier New', Courier, monospace;
+}
+.margins{
+	margin-top: 20px;
+}
+.marginbutton{
+	margin-top: 10px;
+}

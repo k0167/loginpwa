@@ -1,0 +1,33 @@
+  <div class="form-signin">
+    <div class="p-fluid">
+      <div>
+        <img [src]="logo" alt="" height="34%" width="34%" style="margin-left: 118px;">
+      </div>
+
+      <div class="margins">
+        <span class="p-float-label">
+          <input id="usuario" type="text" pInputText>
+          <label for="usuario">E-mail</label>
+        </span>
+      </div>
+
+      <div  class="margins">
+        <span class="p-float-label">
+          <input id="password" type="password" pInputText>
+          <label for="password">Senha</label>
+        </span>
+      </div>
+
+      <div class="marginbutton">
+        <button routerlink="/login" pButton type="button" label="Login"></button>
+      </div>
+
+      <div class="marginbutton">
+        <button routerLink="/registrar" pButton type="button" class="p-button-success" label="Registre-se aqui"></button>
+      </div>
+
+      <div class="marginbutton">
+        <p-button routerLink="/recuperar" routerLinkActive="active" label="Esqueci minha senha" styleClass="p-button-link"></p-button>
+      </div>
+    </div>
+  </div>

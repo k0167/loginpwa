@@ -1,0 +1,20 @@
+<div class="form-signin">
+    <div class="p-fluid">
+      <div  class="margins">
+        <span class="p-float-label">
+          <input id="usuario" type="text" pInputText>
+          <label for="usuario">E-mail</label>
+        </span>
+      </div>
+      <div *ngIf="!show" class="marginbutton">
+        <button (click)="onclick()" pButton type="button" label="Enviar e-mail de recuperação"></button>
+      </div>
+
+      <p-message class="margins" *ngIf="show" [severity]="state" [text]="content" styleClass="p-mr-2"></p-message>
+      <div *ngIf="show" class="marginbutton">
+        <button class="p-button-success" routerLink="/login" routerLinkActive="active" pButton type="button" label="Voltar ao Login"></button>
+      </div>
+    
+    
+    </div>
+</div>
